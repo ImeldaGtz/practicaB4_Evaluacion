@@ -1,0 +1,8 @@
+:root {
+    --primario: hsl(4, 100%, 38%);
+    --secundario: hsl(218, 27%, 94%);
+    --hr: hsl(218, 13%, 88%);
+    --footer: hsl(0, 0%, 13%);
+    --selected-text: hsl(0, 0%, 39%);
+    --red-text: hsl(4, 100%, 38%);
+}
