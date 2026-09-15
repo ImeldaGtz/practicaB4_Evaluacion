@@ -6,3 +6,9 @@
     --selected-text: hsl(0, 0%, 39%);
     --red-text: hsl(4, 100%, 38%);
 }
+.primary {
+    background-color: var(--primario);
+}
+.secondary {
+    background-color: var(--secundario);
+}
