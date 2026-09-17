@@ -6,3 +6,22 @@
     --selected-text: hsl(0, 0%, 39%);
     --red-text: hsl(4, 100%, 38%);
 }
+
+.h-highlights {
+    height: 3rem;
+    width: auto;
+}
+
+.h-mini {
+    height: 1rem;
+    width: auto;
+}
+
+.bg-primario {
+    background-color: var(--primario);
+    border-color: var(--primario);;
+}
+
+.text-primario {
+    color: var(--primario);
+}
