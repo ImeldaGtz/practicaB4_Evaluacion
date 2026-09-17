@@ -15,65 +15,66 @@
         <!--Nav y parte superior-->
         <div class="container-fluid p-0 m-0">
             <div class="container-fluid p-0 m-0">
-                <!--* 1. Abril Div arriba del navbar -->
-            <div class="container-fluid p-0 m-0 d-flex align-items-center justify-content-around gap-4">
-                <!--Elementos del site highlights / Aspectos destacados del sitio Nota_ Luego quitar el bg-transparent-->
-            <div class="d-flex align-items-center justify-content-around gap-4">
-                <ul class="list-group list-group-horizontal">
-                    <li class="list-group-item border border-0 bg-transparent">
-                        <img src="https://objetos.estaticos-marca.com/imagenes/2026/09/14/portada/marca_papel/1789337033_extras_primera_papel_0.jpg"
-                            alt="Monumental Madrid" class="h-highlights">
-                        <strong class="d-none d-lg-inline">La portada de hoy</strong>
-                    </li>
-                    <li class="list-group-item border border-0 bg-transparent">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/RadioMARCA.svg?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original"
-                            alt="Radio Marca" class="h-highlights">
-                        <strong class="d-none d-lg-inline">Radio MARCA</strong>
-                    </li>
-                    <li class="list-group-item border border-0 bg-transparent">
-                        <img src="https://estaticos.elmundo.es/assets/multimedia/imagenes/2016/09/01/14727228001875.png"
-                            alt="Laliga Fantasy Marca" class="h-highlights">
-                        <strong class="d-none d-lg-inline">Laliga Fantasy MARCA</strong>
-                    </li>
-                </ul>
 
-                <!--Logo la marca-->
-                
-                    <a href="/" aria-label="Página de diario la Marca">
-                        <img src="img/imgMarcaLogo.svg" alt="Logo de diario Marca" class="h-highlights">
-                    </a>
+                <!--* 1. Abril Div arriba del navbar -->
+                <div class="container-fluid p-0 m-0 d-flex align-items-center justify-content-around gap-4">
+                    <!--Elementos del site highlights / Aspectos destacados del sitio Nota_ Luego quitar el bg-transparent-->
+                    <div class="d-flex align-items-center justify-content-around gap-4">
+                        <ul class="list-group list-group-horizontal">
+                            <li class="list-group-item border border-0 bg-transparent">
+                                <img src="https://objetos.estaticos-marca.com/imagenes/2026/09/14/portada/marca_papel/1789337033_extras_primera_papel_0.jpg"
+                                    alt="Monumental Madrid" class="h-highlights">
+                                <strong class="d-none d-lg-inline">La portada de hoy</strong>
+                            </li>
+                            <li class="list-group-item border border-0 bg-transparent">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/RadioMARCA.svg?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original"
+                                    alt="Radio Marca" class="h-highlights">
+                                <strong class="d-none d-lg-inline">Radio MARCA</strong>
+                            </li>
+                            <li class="list-group-item border border-0 bg-transparent">
+                                <img src="https://estaticos.elmundo.es/assets/multimedia/imagenes/2016/09/01/14727228001875.png"
+                                    alt="Laliga Fantasy Marca" class="h-highlights">
+                                <strong class="d-none d-lg-inline">Laliga Fantasy MARCA</strong>
+                            </li>
+                        </ul>
+
+                        <!--Logo la marca-->
+
+                        <a href="/" aria-label="Página de diario la Marca">
+                            <img src="img/imgMarcaLogo.svg" alt="Logo de diario Marca" class="h-highlights">
+                        </a>
+                    </div>
+
+                    <!--Dropdown de pais Nota: Preguntar si puedo usar JS-->
+                    <aside>
+                        <div class="btn-group">
+                            <button class="btn btn-secondary dropdown-toggle bg-transparent text-dark" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="img/imgBanderaEspana.webp" alt="Imagen de bandera española" class="h-mini">
+                                ES
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">MX</a></li>
+                                <li><a class="dropdown-item" href="#">USA-ES</a></li>
+                                <li><a class="dropdown-item" href="#">USA-ES</a></li>
+                            </ul>
+                        </div>
+
+                        <button type="button" class="btn bg-primario text-light btn-danger px-4">Suscríbete</button>
+                        <button type="button" class="btn btn-light text-primario fw-bold border">Iniciar Sesión</button>
+                    </aside>
                 </div>
 
-                <!--Dropdown de pais Nota: Preguntar si puedo usar JS-->
-                <aside >
-                    <div class="btn-group">
-                        <button class="btn btn-secondary dropdown-toggle bg-transparent text-dark" type="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="img/imgBanderaEspana.webp" alt="Imagen de bandera española" class="h-mini">
-                            ES
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">MX</a></li>
-                            <li><a class="dropdown-item" href="#">USA-ES</a></li>
-                            <li><a class="dropdown-item" href="#">USA-ES</a></li>
-                        </ul>
-                    </div>
-                
-                    <button type="button" class="btn bg-primario text-light btn-danger px-4">Suscríbete</button>
-                    <button type="button" class="btn btn-light text-primario fw-bold border">Iniciar Sesión</button>
-                </aside>
-            </div>
-                
-                
+
                 <!-- 2. Maya Navbar -->
-                <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #C20800;">
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #C20800; margin-top: 60px;"
                     <!-- Contenido del navbar --> <!-- justify content end-->
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-5">
                             <!-- Dropdown -->
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-white fw-bold" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle text-white fw-bold" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Fútbol
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -96,8 +97,8 @@
 
                             <!-- Dropdown -->
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-white fw-bold" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle text-white fw-bold" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Baloncesto
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -120,8 +121,8 @@
 
                             <!-- Dropdown -->
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-white fw-bold" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle text-white fw-bold" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Motor
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -144,8 +145,8 @@
 
                             <!-- Dropdown -->
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-white fw-bold" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle text-white fw-bold" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Polideportivo
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -176,7 +177,9 @@
                             <li class="nav-item" style="padding-left: 500px;">
                                 <form class="search-box position-relative">
                                     <input type="text" class="form-control pe-5" placeholder="Buscar en marca.com">
-                                    <button type="submit" class="btn position-absolute top-50 end-0 translate-middle-y me-1 p-1" aria-label="Buscar">
+                                    <button type="submit"
+                                        class="btn position-absolute top-50 end-0 translate-middle-y me-1 p-1"
+                                        aria-label="Buscar">
                                         <img src="lupa.jpg" alt="Buscar" width="24" height="24">
                                     </button>
                                 </form>
@@ -184,241 +187,275 @@
                         </ul>
                     </div>
                 </nav>
-                
+
                 <!-- 3.1 Cosa de los escudos -->
-                 <div class="secondary text-center overflow-hidden text-nowrap" style="margin-top: 57px;">
+                <div class="secondary text-center overflow-hidden text-nowrap" style="margin-top:53px">
                     <a class="link-underline link-underline-opacity-0" href="">
-                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/173.png" alt="Noticias del Alavés" width="30" height="30"> 
+                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/173.png"
+                            alt="Noticias del Alavés" width="30" height="30">
                     </a>
                     <a class="link-underline link-underline-opacity-0" href="">
-                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/174.png" alt="Noticias del Athletic club" width="30" height="30"> 
+                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/174.png"
+                            alt="Noticias del Athletic club" width="30" height="30">
                     </a>
                     <a class="link-underline link-underline-opacity-0" href="">
-                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/175.png" alt="Noticias del Atlético de madrid" width="30" height="30"> 
+                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/175.png"
+                            alt="Noticias del Atlético de madrid" width="30" height="30">
                     </a>
                     <a class="link-underline link-underline-opacity-0" href="">
-                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/178.png" alt="Noticias del Barcelona" width="30" height="30"> 
+                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/178.png"
+                            alt="Noticias del Barcelona" width="30" height="30">
                     </a>
                     <a class="link-underline link-underline-opacity-0" href="">
-                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/185.png" alt="Noticias del Betis" width="30" height="30"> 
+                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/185.png"
+                            alt="Noticias del Betis" width="30" height="30">
                     </a>
                     <a class="link-underline link-underline-opacity-0" href="">
-                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/176.png" alt="Noticias del Celta de Vigo" width="30" height="30"> 
+                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/176.png"
+                            alt="Noticias del Celta de Vigo" width="30" height="30">
                     </a>
                     <a class="link-underline link-underline-opacity-0" href="">
-                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/180.png" alt="Noticias del Deportivo" width="30" height="30"> 
+                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/180.png"
+                            alt="Noticias del Deportivo" width="30" height="30">
                     </a>
                     <a class="link-underline link-underline-opacity-0" href="">
-                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/954.png" alt="Noticias del Elche" width="30" height="30"> 
+                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/954.png"
+                            alt="Noticias del Elche" width="30" height="30">
                     </a>
                     <a class="link-underline link-underline-opacity-0" href="">
-                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/177.png" alt="Noticias del Espanyol" width="30" height="30"> 
+                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/177.png"
+                            alt="Noticias del Espanyol" width="30" height="30">
                     </a>
                     <a class="link-underline link-underline-opacity-0" href="">
-                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/1450.png" alt="Noticias del Getafe" width="30" height="30"> 
+                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/1450.png"
+                            alt="Noticias del Getafe" width="30" height="30">
                     </a>
                     <a class="link-underline link-underline-opacity-0" href="">
-                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/855.png" alt="Noticias del Levante" width="30" height="30"> 
+                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/855.png"
+                            alt="Noticias del Levante" width="30" height="30">
                     </a>
                     <a class="link-underline link-underline-opacity-0" href="">
-                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/182.png" alt="Noticias del Málaga" width="30" height="30"> 
+                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/182.png"
+                            alt="Noticias del Málaga" width="30" height="30">
                     </a>
                     <a class="link-underline link-underline-opacity-0" href="">
-                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/450.png" alt="Noticias del Osasuna" width="30" height="30">
+                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/450.png"
+                            alt="Noticias del Osasuna" width="30" height="30">
                     </a>
                     <a class="link-underline link-underline-opacity-0" href="">
-                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/189.png" alt="Noticias del Racing de Santander" width="30" height="30"> 
+                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/189.png"
+                            alt="Noticias del Racing de Santander" width="30" height="30">
                     </a>
                     <a class="link-underline link-underline-opacity-0" href="">
-                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/184.png" alt="Noticias del Rayo Vallecano" width="30" height="30"> 
+                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/184.png"
+                            alt="Noticias del Rayo Vallecano" width="30" height="30">
                     </a>
                     <a class="link-underline link-underline-opacity-0" href="">
-                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/186.png" alt="Noticias del Real madrid" width="30" height="30"> 
+                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/186.png"
+                            alt="Noticias del Real madrid" width="30" height="30">
                     </a>
                     <a class="link-underline link-underline-opacity-0" href="">
-                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/188.png" alt="Noticias del Real sociedad" width="30" height="30"> 
+                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/188.png"
+                            alt="Noticias del Real sociedad" width="30" height="30">
                     </a>
                     <a class="link-underline link-underline-opacity-0" href="">
-                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/179.png" alt="Noticias del Sevilla" width="30" height="30"> 
+                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/179.png"
+                            alt="Noticias del Sevilla" width="30" height="30">
                     </a>
                     <a class="link-underline link-underline-opacity-0" href="">
-                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/191.png" alt="Noticias del Valencia" width="30" height="30"> 
+                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/191.png"
+                            alt="Noticias del Valencia" width="30" height="30">
                     </a>
                     <a class="link-underline link-underline-opacity-0" href="">
-                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/449.png" alt="Noticias del Villareal" width="30" height="30"> 
+                        <img src="https://objetos.estaticos-marca.com/assets/sports/logos/football/png/72x72/449.png"
+                            alt="Noticias del Villareal" width="30" height="30">
                     </a>
                     <a class="link-underline link-underline-opacity-0" href="">
-                        <img src="https://www.jackpot.es/wp-content/uploads/2018/12/MARCAAPUESTASJK-293x90.jpg" alt="marca apuestas" height="30"> 
+                        <img src="https://www.jackpot.es/wp-content/uploads/2018/12/MARCAAPUESTASJK-293x90.jpg"
+                            alt="marca apuestas" height="30">
                     </a>
-                 </div>
+                </div>
             </div>
 
             <div class="container-fluid m-0 p-0 ">
                 <!-- 3. Imelda Anuncio y Sección de agenda -->
                 <div class="p-2 mt-3 mb-2 text-center">
-                    <img class="img-fluid" src="https://www.oncediario.com/views/upload/270323_Caliente_800x150.gif" alt="anuncio">
+                    <img class="img-fluid" src="https://www.oncediario.com/views/upload/270323_Caliente_800x150.gif"
+                        alt="anuncio">
 
 
-            <!-- 2. Maya Navbar -->
+                    <!-- 2. Maya Navbar -->
 
-            <!-- 3.1 Cosa de los escudos -->
-        </div>
+                    <!-- 3.1 Cosa de los escudos -->
+                </div>
 
-        <div class="container-fluid p-0 m-0">
-            <!-- 3. Imelda Anuncio y Sección de agenda -->
-        </div>
+                <div class="container-fluid p-0 m-0">
+                    <!-- 3. Imelda Anuncio y Sección de agenda -->
+                </div>
 
-        <div class="container-fluid p-0 m-0">
-            <!-- 4. Abril Div o Section-Articles -->
-        </div>
+                <div class="container-fluid p-0 m-0">
+                    <!-- 4. Abril Div o Section-Articles -->
+                </div>
 
-        <div class="container-fluid p-0 m-0">
-            <!-- 5. Maya Div o Articles -->
-        </div>
+                <div class="container-fluid p-0 m-0">
+                    <!-- 5. Maya Div o Articles -->
+                </div>
 
-        <div class="container-fluid p-0 m-0">
-            <!-- 6. Imelda Es noticia -->
-        </div>
+                <div class="container-fluid p-0 m-0">
+                    <!-- 6. Imelda Es noticia -->
+                </div>
 
-        <div class="container-fluid p-0 m-0">
-            <!-- 7. Abril más divs o articles (Lo de liga santander) -->
-        </div>
+                <div class="container-fluid p-0 m-0">
+                    <!-- 7. Abril más divs o articles (Lo de liga santander) -->
+                </div>
 
-        <div class="container-fluid p-0 m-0">
-            <!-- 8. Imelda Aún más divs/articles (lo de Lunin) -->
-        </div>
+                <div class="container-fluid p-0 m-0">
+                    <!-- 8. Imelda Aún más divs/articles (lo de Lunin) -->
+                </div>
 
-            <!-- footer -->
-            <footer>
-                <div class="bg-dark py-2 small">
-                    <div class="container">
-                        <p class="text-center text-white fw-bold">
-                            Otras webs de Unidad Editorial
-                        </p>
-                        <hr style="height: 1px; background-color: white; border: none; opacity: 1;">
+                <!-- footer -->
+                <footer>
+                    <div class="bg-dark py-2 small">
+                        <div class="container">
+                            <p class="text-center text-white fw-bold">
+                                Otras webs de Unidad Editorial
+                            </p>
+                            <hr style="height: 1px; background-color: white; border: none; opacity: 1;">
 
-                        <div class="row text-white">
-                            <!-- Marca -->
-                            <div class="col-12 col-sm-6 col-md-3 mb-3">
-                                <p class="fw-bold">Marca</p>
-                                <ul class="list-unstyled">
-                                    <li><a class="text-decoration-none text-white" href="#">App Marca</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Apuestas Deportivas</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Clasificación LaLiga</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Calendario LaLiga</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Hemeroteca Marca</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Marca eSports</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Marca Madrid</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Marca en Orbyt</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Zona Marca</a></li>
-                                </ul>
-                            </div>
+                            <div class="row text-white">
+                                <!-- Marca -->
+                                <div class="col-12 col-sm-6 col-md-3 mb-3">
+                                    <p class="fw-bold">Marca</p>
+                                    <ul class="list-unstyled">
+                                        <li><a class="text-decoration-none text-white" href="#">App Marca</a></li>
+                                        <li><a class="text-decoration-none text-white" href="#">Apuestas Deportivas</a>
+                                        </li>
+                                        <li><a class="text-decoration-none text-white" href="#">Clasificación LaLiga</a>
+                                        </li>
+                                        <li><a class="text-decoration-none text-white" href="#">Calendario LaLiga</a>
+                                        </li>
+                                        <li><a class="text-decoration-none text-white" href="#">Hemeroteca Marca</a>
+                                        </li>
+                                        <li><a class="text-decoration-none text-white" href="#">Marca eSports</a></li>
+                                        <li><a class="text-decoration-none text-white" href="#">Marca Madrid</a></li>
+                                        <li><a class="text-decoration-none text-white" href="#">Marca en Orbyt</a></li>
+                                        <li><a class="text-decoration-none text-white" href="#">Zona Marca</a></li>
+                                    </ul>
+                                </div>
 
-                            <!-- Ocio y Moda -->
-                            <div class="col-12 col-sm-6 col-md-3 mb-3">
-                                <p class="fw-bold">Ocio y Moda</p>
-                                <ul class="list-unstyled">
-                                    <li><a class="text-decoration-none text-white" href="#">Tramillas</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Moda - Telva</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">BUHO Magazine</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Traductor</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Programación TV</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Marca Entradas</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Mi bebé y yo</a></li>
-                                </ul>
-                            </div>
+                                <!-- Ocio y Moda -->
+                                <div class="col-12 col-sm-6 col-md-3 mb-3">
+                                    <p class="fw-bold">Ocio y Moda</p>
+                                    <ul class="list-unstyled">
+                                        <li><a class="text-decoration-none text-white" href="#">Tramillas</a></li>
+                                        <li><a class="text-decoration-none text-white" href="#">Moda - Telva</a></li>
+                                        <li><a class="text-decoration-none text-white" href="#">BUHO Magazine</a></li>
+                                        <li><a class="text-decoration-none text-white" href="#">Traductor</a></li>
+                                        <li><a class="text-decoration-none text-white" href="#">Programación TV</a></li>
+                                        <li><a class="text-decoration-none text-white" href="#">Marca Entradas</a></li>
+                                        <li><a class="text-decoration-none text-white" href="#">Mi bebé y yo</a></li>
+                                    </ul>
+                                </div>
 
-                            <!-- Unidad Editorial -->
-                            <div class="col-12 col-sm-6 col-md-3 mb-3">
-                                <p class="fw-bold">Unidad Editorial</p>
+                                <!-- Unidad Editorial -->
+                                <div class="col-12 col-sm-6 col-md-3 mb-3">
+                                    <p class="fw-bold">Unidad Editorial</p>
 
-                                <ul class="list-unstyled">
-                                    <li><a class="text-decoration-none text-white" href="#">El Mundo</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Expansión</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">CuídatePlus</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Diario Médico</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Correo Farmacéutico</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Suscripción Marca</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Suscripción ElMundo</a></li>
-                                </ul>
-                            </div>
+                                    <ul class="list-unstyled">
+                                        <li><a class="text-decoration-none text-white" href="#">El Mundo</a></li>
+                                        <li><a class="text-decoration-none text-white" href="#">Expansión</a></li>
+                                        <li><a class="text-decoration-none text-white" href="#">CuídatePlus</a></li>
+                                        <li><a class="text-decoration-none text-white" href="#">Diario Médico</a></li>
+                                        <li><a class="text-decoration-none text-white" href="#">Correo Farmacéutico</a>
+                                        </li>
+                                        <li><a class="text-decoration-none text-white" href="#">Suscripción Marca</a>
+                                        </li>
+                                        <li><a class="text-decoration-none text-white" href="#">Suscripción ElMundo</a>
+                                        </li>
+                                    </ul>
+                                </div>
 
-                            <!-- Formación y Empleo -->
-                            <div class="col-12 col-sm-6 col-md-3 mb-3">
-                                <p class="fw-bold">Formación y Empleo</p>
+                                <!-- Formación y Empleo -->
+                                <div class="col-12 col-sm-6 col-md-3 mb-3">
+                                    <p class="fw-bold">Formación y Empleo</p>
 
-                                <ul class="list-unstyled">
-                                    <li><a class="text-decoration-none text-white" href="#">Escuela Unidad Editorial</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Unidad Editorial</a></li>
-                                    <li><a class="text-decoration-none text-white" href="#">Expansión y Empleo</a></li>
-                                </ul>
+                                    <ul class="list-unstyled">
+                                        <li><a class="text-decoration-none text-white" href="#">Escuela Unidad
+                                                Editorial</a></li>
+                                        <li><a class="text-decoration-none text-white" href="#">Unidad Editorial</a>
+                                        </li>
+                                        <li><a class="text-decoration-none text-white" href="#">Expansión y Empleo</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-        <div class="container-fluid p-0 m-0">
-            <!-- 9. Maya Footer -->
-        </div>
-    </div>
-
-                <div class="text-center py-3" style="background-color: #eeeeee; color: #222;">
-                    <p class="fw-bold mb-2">
-                        © Agosto 2018 Unidad Editorial Información Deportiva, S.L.U. Todos los derechos reservados.
-                    </p>
-
-                    <div class="mb-3">
-                        <a href="#" class="text-decoration-none text-dark mx-2">
-                            Términos y condiciones de uso
-                        </a>
-                        <a href="#" class="text-decoration-none text-dark mx-2">
-                            Política de privacidad
-                        </a>
-                        <a href="#" class="text-decoration-none text-dark mx-2">
-                            Política de cookies
-                        </a>
-                        <a href="#" class="text-decoration-none text-dark mx-2">
-                            Contacto
-                        </a>
-                        <a href="#" class="text-decoration-none text-dark mx-2">
-                            Publicidad
-                        </a>
-                        <a href="#" class="text-decoration-none text-dark mx-2">
-                            Ayuda
-                        </a>
-                        <a href="#" class="text-decoration-none text-dark mx-2">
-                            Nuestro equipo
-                        </a>
-                        <br>
-                        <a href="#" class="text-decoration-none text-dark">
-                            Venta de contenidos
-                        </a>
+                    <div class="container-fluid p-0 m-0">
+                        <!-- 9. Maya Footer -->
                     </div>
+            </div>
 
-                    <p class="fw-bold mb-2">
-                        Síguenos en
-                    </p>
-                    <div>
-                        <a class="text-decoration-none p-1" href="#">
-                            <img src="facebook.png" width="24" height="24" alt="Facebook">
-                        </a>
-                        <a class="text-decoration-none p-1" href="#">
-                            <img src="twitter.png" width="24" height="24" alt="Twitter">
-                        </a>
-                        <a class="text-decoration-none p-1" href="#">
-                            <img src="google.png" width="24" height="24" alt="Google">
-                        </a>
-                        <a class="text-decoration-none p-2" href="#">
-                            <img src="rss.png" width="24" height="24" alt="RSS">
-                        </a>
-                    </div>
+            <div class="text-center py-3" style="background-color: #eeeeee; color: #222;">
+                <p class="fw-bold mb-2">
+                    © Agosto 2018 Unidad Editorial Información Deportiva, S.L.U. Todos los derechos reservados.
+                </p>
+
+                <div class="mb-3">
+                    <a href="#" class="text-decoration-none text-dark mx-2">
+                        Términos y condiciones de uso
+                    </a>
+                    <a href="#" class="text-decoration-none text-dark mx-2">
+                        Política de privacidad
+                    </a>
+                    <a href="#" class="text-decoration-none text-dark mx-2">
+                        Política de cookies
+                    </a>
+                    <a href="#" class="text-decoration-none text-dark mx-2">
+                        Contacto
+                    </a>
+                    <a href="#" class="text-decoration-none text-dark mx-2">
+                        Publicidad
+                    </a>
+                    <a href="#" class="text-decoration-none text-dark mx-2">
+                        Ayuda
+                    </a>
+                    <a href="#" class="text-decoration-none text-dark mx-2">
+                        Nuestro equipo
+                    </a>
+                    <br>
+                    <a href="#" class="text-decoration-none text-dark">
+                        Venta de contenidos
+                    </a>
                 </div>
+
+                <p class="fw-bold mb-2">
+                    Síguenos en
+                </p>
+                <div>
+                    <a class="text-decoration-none p-1" href="#">
+                        <img src="facebook.png" width="24" height="24" alt="Facebook">
+                    </a>
+                    <a class="text-decoration-none p-1" href="#">
+                        <img src="twitter.png" width="24" height="24" alt="Twitter">
+                    </a>
+                    <a class="text-decoration-none p-1" href="#">
+                        <img src="google.png" width="24" height="24" alt="Google">
+                    </a>
+                    <a class="text-decoration-none p-2" href="#">
+                        <img src="rss.png" width="24" height="24" alt="RSS">
+                    </a>
+                </div>
+            </div>
             </footer>
-        </div>    
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    </body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
