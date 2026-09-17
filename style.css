@@ -6,6 +6,7 @@
     --selected-text: hsl(0, 0%, 39%);
     --red-text: hsl(4, 100%, 38%);
 }
+<<<<<<< HEAD
 
 .h-highlights {
     height: 3rem;
@@ -24,4 +25,11 @@
 
 .text-primario {
     color: var(--primario);
+=======
+.primary {
+    background-color: var(--primario);
+}
+.secondary {
+    background-color: var(--secundario);
+>>>>>>> ab1096763806fe3fe5963bba71e2de432efdcfa8
 }
