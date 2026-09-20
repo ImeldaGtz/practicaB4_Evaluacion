@@ -45,7 +45,7 @@
                 </div>
 
                 <!--Dropdown de pais Nota: Preguntar si puedo usar JS-->
-                <aside>
+                <aside style="position: relative; z-index: 1030;">
                     <div class="btn-group">
                         <button class="btn btn-secondary dropdown-toggle bg-transparent text-dark" type="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -67,7 +67,7 @@
 
             <!-- 2. Maya Navbar -->
             <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-primario">
-                <!-- Contenido del navbar --> <!-- justify content end-->
+                <!-- Contenido del navbar -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-5">
                         <!-- Dropdown -->
@@ -173,7 +173,7 @@
                         </li>
 
                         <!-- barra de búsqueda -->
-                        <li class="nav-item" style="padding-left: 500px;">
+                        <li class="nav-item" style="padding-left: 400px;">
                             <form class="search-box position-relative">
                                 <input type="text" class="form-control pe-5" placeholder="Buscar en marca.com">
                                 <button type="submit"
@@ -343,8 +343,47 @@
 
                 </div>
 
-                <div class="container-fluid p-0 m-0">
-                    <!-- 5. Maya Div o Articles -->
+                <div class="container-fluid px-5 m-0">
+                    <!-- TARJETAS -->
+                    <div class="row mt-4">
+                        <!-- 1 -->
+                        <div class="col-md-6 col-lg-4 mb-4">
+                            <div class="position-relative d-inline-block">
+                                <img src="https://img.redbull.com/images/c_fill,g_auto,w_1200,h_630/f_auto,q_auto/redbullcom/2018/08/24/bac9cc08-59be-4b46-90b4-a456273afa11/dele-alli-challenge"
+                                    class="img-fluid" alt="Felix Ordode" style="width: 500px; height: 200px;">
+                                <span class="position-absolute top-0 start-0 badge bg-primary rounded-0">FÚTBOL</span>
+                            </div>
+
+                            <h5 class="fw-bold mt-3">Felix Orode, el jugador nigeriano que explica el festejo de Dele Alli</h5>
+                            <hr style="border: none; border-top: 1px solid gray; opacity: 1; margin-top: 50px;">
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="col-md-6 col-lg-4 mb-4">
+                            <div class="position-relative d-inline-block">
+                                <img src="https://i.deportesrcn.com/old/public/downloaded_images/entreno-con-cr7-1260.jpg?w=480"
+                                    class="img-fluid" alt="Cristiano y Cuadrado" style="width: 500px; height: 200px"/>
+                                <span class="position-absolute top-0 start-0 badge bg-primary rounded-0">SERIE A</span>
+                            </div>
+
+                            <h5 class="fw-bold mt-3">Cristiano habla sobre Cuadrado y cesión del número 7</h5>
+                            <p class="small text-muted mt-4 mb-0">REDACCIÓN MARCA CLARO</p>
+                            <hr class="mt-1" style="border: none; border-top: 1px solid gray; opacity: 1;">
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="col-md-6 col-lg-4 mb-4">
+                            <div class="position-relative d-inline-block">
+                                <img src="https://img.asmedia.epimg.net/resizer/v2/M7S5AASJQJMTJMYSDEYVUYIRHM.jpg?auth=69640f1932cdc145c000f8f108a20ebebc37199f1e52784c8c08f526f05eaf6c&width=1200&height=675&smart=true"
+                                class="img-fluid" alt="Cruz Azul" style="width: 500px; height: 200px"/>
+                                <span class="position-absolute top-0 start-0 badge bg-primary rounded-0">MÉXICO</span>
+                            </div>
+                            
+                            <h5 class="fw-bold mt-3">La joya celeste que hace soñar a Cruz Azul</h5>
+                            <p class="small text-muted mt-4 mb-0">JAVIER CARDOSO</p>
+                            <hr class="mt-1" style="border: none; border-top: 1px solid gray; opacity: 1;">
+                        </div>
+                    </div>
                 </div>
 
                 <div class="container-fluid p-0 m-0">
@@ -366,7 +405,7 @@
                             <p class="text-center text-white fw-bold">
                                 Otras webs de Unidad Editorial
                             </p>
-                            <hr style="height: 1px; background-color: white; border: none; opacity: 1;">
+                            <hr style="border: none; border-top: 1px solid white; opacity: 1;">
 
                             <div class="row text-white">
                                 <!-- Marca -->
@@ -437,9 +476,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container-fluid p-0 m-0">
-                        <!-- 9. Maya Footer -->
-                    </div>
+                </footer>
             </div>
 
             <div class="text-center py-3" style="background-color: #eeeeee; color: #222;">
