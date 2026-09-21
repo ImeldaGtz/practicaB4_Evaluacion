@@ -16,9 +16,10 @@
         <div class="container-fluid p-0 m-0">
 
             <!--* 1. Abril Div arriba del navbar -->
-            <div class="container-fluid p-0 m-0 d-flex align-items-center justify-content-around gap-4">
+            <div class="container-fluid p-0 m-0">
                 <!--Elementos del site highlights / Aspectos destacados del sitio Nota_ Luego quitar el bg-transparent-->
-                <div class="d-flex align-items-center justify-content-around gap-4">
+                <div class="row align-items-center g-2 m-0">
+                <div class="col-12 col-md-8 d-flex align-items-center justify-content-around gap-2">
                     <ul class="list-group list-group-horizontal">
                         <li class="list-group-item border border-0 bg-transparent">
                             <img src="https://objetos.estaticos-marca.com/imagenes/2026/09/14/portada/marca_papel/1789337033_extras_primera_papel_0.jpg"
@@ -45,7 +46,8 @@
                 </div>
 
                 <!--Dropdown de pais Nota: Preguntar si puedo usar JS-->
-                <aside style="position: relative; z-index: 1030;">
+                <div class="col-12 col-md-4 text-center text-md-end">
+                <aside class="position-relative z-3">
                     <div class="btn-group">
                         <button class="btn btn-secondary dropdown-toggle bg-transparent text-dark" type="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -62,11 +64,13 @@
                     <button type="button" class="btn bg-primario text-light btn-danger px-4">Suscríbete</button>
                     <button type="button" class="btn btn-light text-primario fw-bold border">Iniciar Sesión</button>
                 </aside>
+                </div>
+                </div>
             </div>
 
 
             <!-- 2. Maya Navbar -->
-            <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-primario">
+            <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-primario z-1">
                 <!-- Contenido del navbar -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-5">
@@ -404,7 +408,7 @@
                                 </div>
                                 <div class="col-7">
                                     <small class="text-primary fw-bold">FICHAJES</small>
-                                    <h5 class="fw-bold mb-1">Mercado: el 'recambio' de Filipe Luis puede llegar de Alemania</h5>
+                                    <h5 class="fw-bold mb-0">Mercado: el 'recambio' de Filipe Luis puede llegar de Alemania</h5>
                                 </div>
                                 <div class="row align-items-center pb-2">
                                     <div class="col-12 text-end">
@@ -500,7 +504,7 @@
                     <!-- 6. Imelda Es noticia -->
                 </div>
 
-                <!--! Si sobre tiempo ver si puedo pegar los comentarios y si puedo subir más la compañia (LALIGA...) al margen superior-->
+                <!--! Si sobre tiempo ver si subir más la compañia (LALIGA...) al margen superior-->
                 <div class="container-fluid px-5">
                     <!-- 7. Abril más divs o articles (Lo de liga santander) -->
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-between">
@@ -515,13 +519,13 @@
                                 </div>
                                 <div class="col-7">
                                     <small class="text-primary fw-bold">LALIGA SANTANDER</small>
-                                    <h5 class="fw-bold">¿Qué equipos y qué jugadores estuvieron en la reunión de la AFE?</h5>
+                                    <h5 class="fw-bold m-0">¿Qué equipos y qué jugadores estuvieron en la reunión de la AFE?</h5>
                                 </div>
                             </div>
-                            <div class="row align-items-center justify-content-end">
+                            <div class="row justify-content-end">
                                 <div class="col-4 text-end">
                                     <small class="text-danger fw-bold">
-                                        <img src="img/iconMensajeGris.webp" alt="Comentarios" width="20">
+                                        <img src="img/iconMensajeGris.webp" alt="Comentarios" width="20" class="img-fluid">
                                         14
                                     </small>
                                 </div>
@@ -545,7 +549,7 @@
                                 </div>
                                 <div class="col-7">
                                     <small class="text-primary fw-bold">SEVILLA FC</small>
-                                    <h5 class="fw-bold">Draxler y Martial, nombres 'top' en la recta final del marcado</h5>
+                                    <h5 class="fw-bold m-0">Draxler y Martial, nombres 'top' en la recta final del marcado</h5>
                                 </div>
                             </div>
                             <div class="row align-items-center">
