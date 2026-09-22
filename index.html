@@ -13,74 +13,91 @@
 <body>
     <div class="container-fluid p-0 m-0">
         <!--Nav y parte superior-->
-        <div class="container-fluid p-0 m-0">
 
             <!--* 1. Abril Div arriba del navbar -->
             <div class="container-fluid p-0 m-0">
-                <!--Elementos del site highlights / Aspectos destacados del sitio Nota_ Luego quitar el bg-transparent-->
-                <div class="row align-items-center g-2 m-0">
-                <div class="col-12 col-md-8 d-flex align-items-center justify-content-around gap-2">
-                    <ul class="list-group list-group-horizontal">
-                        <li class="list-group-item border border-0 bg-transparent">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="https://objetos.estaticos-marca.com/imagenes/2026/09/14/portada/marca_papel/1789337033_extras_primera_papel_0.jpg"
-                                alt="Monumental Madrid" class="h-highlights">
-                                </div>
-                            <div class="col-md-8 d-none d-lg-inline m-0 g-0">
-                                <strong>La portada de hoy</strong>
+                <div class="row align-items-center justify-content-around g-2 mx-0 mb-1">
+                    <!--Elementos del site highlights / Aspectos destacados del sitio Nota_ Luego quitar el bg-transparent-->
+                    <div class="col-auto">
+                        <div class="row align-items-center g-2 m-0">
+            
+                            <!-- Highlights: Lista horizontal usando columnas Grid -->
+                            <div class="col-auto p-0">
+                                <ul class="list-group list-group-flush border-0 m-0 p-0">
+                                    <div class="row g-0 align-items-center m-0">
+                                        <li class="col-auto list-group-item border-0 bg-transparent p-1">
+                                            <div class="row align-items-center g-1 m-0">
+                                                <div class="col-auto p-0">
+                                                    <img src="https://objetos.estaticos-marca.com/imagenes/2026/09/14/portada/marca_papel/1789337033_extras_primera_papel_0.jpg"
+                                                        alt="Monumental Madrid" class="h-highlights">
+                                                </div>
+                                                <div class="col-auto p-0 ms-1 d-none d-md-inline" style="max-width: 90px;">
+                                                    <strong class="small fw-bold text-wrap d-block">La portada de hoy</strong>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item border-0 border-start bg-transparent col-auto text-nowrap">
+                                            <div class="row align-items-center g-1 m-0">
+                                                <div class="col-auto p-0">
+                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/RadioMARCA.svg?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original"
+                                                        alt="Radio Marca" class="h-highlights">
+                                                </div>
+                                                <div class="col-auto p-0 ms-1 d-none d-md-inline" style="max-width: 90px">
+                                                    <strong class="small fw-bold text-wrap d-block">Radio MARCA</strong>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item border-0 border-start bg-transparent col-auto text-nowrap">
+                                            <div class="row align-items-center g-1 m-0">
+                                                <div class="col-auto p-0">
+                                                    <img src="https://estaticos.elmundo.es/assets/multimedia/imagenes/2016/09/01/14727228001875.png"
+                                                        alt="Laliga Fantasy Marca" class="h-highlights">
+                                                </div>
+                                                <div class="col-auto p-0 ms-1 d-none d-md-inline" style="max-width: 100px">
+                                                    <strong class="small fw-bold text-wrap d-block">Laliga Fantasy MARCA</strong>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                </ul>
                             </div>
+            
+                            <!-- Logo Marca -->
+                            <div class="col-auto ps-2">
+                                <a href="/" aria-label="Página de diario la Marca">
+                                    <img src="img/imgMarcaLogo.svg" alt="Logo de diario Marca" class="h-highlights align-middle">
+                                </a>
                             </div>
-                        </li>
-                        <li class="list-group-item border border-0 bg-transparent">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/RadioMARCA.svg?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original"
-                                        alt="Radio Marca" class="h-highlights">
-                                </div>
-                                <div class="col-md-8 d-none d-lg-inline">
-                                    <strong>Radio MARCA</strong>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item border border-0 bg-transparent">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="https://estaticos.elmundo.es/assets/multimedia/imagenes/2016/09/01/14727228001875.png"
-                                        alt="Laliga Fantasy Marca" class="h-highlights">
-                                </div>
-                                <div class="col-md-8 d-none d-lg-inline m-0 g-0"><strong>Laliga Fantasy MARCA</strong></div>
-                            </div>
-                        </li>
-                    </ul>
-
-                    <!--Logo la marca-->
-
-                    <a href="/" aria-label="Página de diario la Marca">
-                        <img src="img/imgMarcaLogo.svg" alt="Logo de diario Marca" class="h-highlights">
-                    </a>
-                </div>
-
-                <!--Dropdown de pais Nota: Preguntar si puedo usar JS-->
-                <div class="col-12 col-md-4 text-center text-md-end">
-                <aside class="position-relative z-3">
-                    <div class="btn-group">
-                        <button class="btn btn-secondary dropdown-toggle bg-transparent text-dark" type="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="img/imgBanderaEspana.webp" alt="Imagen de bandera española" class="h-mini">
-                            ES
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">MX</a></li>
-                            <li><a class="dropdown-item" href="#">USA-ES</a></li>
-                            <li><a class="dropdown-item" href="#">USA-ES</a></li>
-                        </ul>
+            
+                        </div>
                     </div>
-
-                    <button type="button" class="btn bg-primario text-light btn-danger px-4">Suscríbete</button>
-                    <button type="button" class="btn btn-light text-primario fw-bold border">Iniciar Sesión</button>
-                </aside>
-                </div>
+        
+                    <!--Si sobra tiempo usar offcanvas o navbar-toggler para menú hamburguesa-->
+                    <div class="col-auto text-end">
+                        <aside class="position-relative z-3">
+                            <!--Dropdown de pais Nota: Preguntar si puedo usar JS [hacerlo si sobra tiempo]-->
+                            <div class="btn-group align-middle">
+                                <button class="btn btn-secondary dropdown-toggle bg-transparent text-dark p-1 p-sm-2" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="img/imgBanderaEspana.webp" alt="Imagen de bandera española"
+                                        class="h-mini align-middle">
+                                    <span class="d-none d-md-inline align-middle">ES</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">MX</a></li>
+                                    <li><a class="dropdown-item" href="#">USA-ES</a></li>
+                                </ul>
+                            </div>
+                            <button type="button"
+                                class="btn bg-primario text-light btn-danger px-2 px-sm-3 align-middle">Suscríbete</button>
+                            <button type="button" class="btn btn-light text-primario fw-bold border px-2 px-sm-3 align-middle"
+                                aria-label="Iniciar Sesión">
+                                <span class="d-none d-md-inline">Iniciar Sesión</span>
+                                <img src="img/iconInicioSesion.webp" alt="" class="d-inline d-md-none h-mini align-middle">
+                            </button>
+                        </aside>
+                    </div>
+            
                 </div>
             </div>
 
@@ -357,7 +374,6 @@
                                             <img src="img/imgfotomontaje_UEFA.webp" class="card-img" alt="Fútbol" style="height: 24rem;">
                                         </div>
                                     </div>
-                            
                             
                                     <div class="card-img-overlay d-flex flex-column justify-content-end">
                                         <div>
