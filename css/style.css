@@ -49,3 +49,37 @@
 .mw-100px {
     max-width: 100px;
 }
+
+/* --- animación navbar --- */
+@keyframes ocultarNavbar {
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes mostrarNavbar {
+    from {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    to {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+/* --- para navbar inicio --- */
+#navInicio {
+    animation: ocultarNavbar linear both;
+    animation-timeline: scroll(root);
+    animation-range: 0px 80px;
+}
+
+/* --- para navbar con logo --- */
+#navScroll {
+    animation: mostrarNavbar linear both;
+    animation-timeline: scroll(root);
+    animation-range: 40px 120px;
+}
