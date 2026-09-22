@@ -31,3 +31,15 @@
 .secondary {
     background-color: var(--secundario);
     }
+
+.gradient {
+    background: linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+.mw-90px {
+    max-width: 90px;
+}
+
+.mw-100px {
+    max-width: 100px;
+}
