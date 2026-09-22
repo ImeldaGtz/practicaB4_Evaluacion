@@ -5,6 +5,7 @@
     --footer: hsl(0, 0%, 13%);
     --selected-text: hsl(0, 0%, 39%);
     --red-text: hsl(4, 100%, 38%);
+    --blue-stuff: hsl(203, 68%, 52%);
 }
 .h-highlights {
     height: 3rem;
@@ -31,3 +32,10 @@
 .secondary {
     background-color: var(--secundario);
     }
+
+.bg-blue {
+    background-color: var(--blue-stuff);
+}
+.blue-text {
+    color: var(--blue-stuff);
+}
