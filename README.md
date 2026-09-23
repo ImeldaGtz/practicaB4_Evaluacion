@@ -11,7 +11,7 @@
 | :--- | :--- | 
 | **HTML** | Estructura del sitio web |
 | **CSS** | Diseños y estilos personalizados | 
-| **Bootstrp** | Framework para diseño |
+| **Bootstrap** | Framework para diseño |
 
 ## Otros datos
 - *Materia:* Programación para móviles
